@@ -1,4 +1,4 @@
-# FeedlyReadLaterLinkExtractor
+# ![Logo of project](https://github.com/Jumanjii/Feedly-ReadLater-Extractor/blob/main/icon.png)Feedly ReadLater Extractor
 4 little lines to extract your "Read later" link list from feedly to your clipboard.
 
 For some reason, you may want to export your **Read later** list from Feedly.
