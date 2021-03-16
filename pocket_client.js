@@ -93,7 +93,7 @@ function saveURLs(consumerkey, accesstoken, urls) {
     consumer_key: consumerkey,
     access_token: accesstoken,
     actions: actions
-  };
+  });
 
   var requestoptions = {
     method: 'post',
@@ -104,7 +104,7 @@ function saveURLs(consumerkey, accesstoken, urls) {
   return fetch("https://getpocket.com/v3/send", requestoptions)
     .then(response => response.text())
     .then(result => console.log(result))
-    .then( _ => console.log("batch of urls has been correctly registered in pocket collection")
+    .then( _ => console.log("batch of urls has been correctly registered in pocket collection"))
     .catch(error => console.log('error', error));
 }
 
