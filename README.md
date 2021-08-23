@@ -8,7 +8,7 @@ For some reason, you may want to export your **Read later** list from Feedly.
 3) Copy the following in your console and press enter :-)
 
 ```javascript
-var regex = /data-alternate-link="(.*)" data-entry/g;
+var regex = /data-alternate-link="(.*)" data-navigation/g;
 const elements = document.getElementsByClassName("list-entries");
 const matches = [...elements.item(0).outerHTML.matchAll(regex)];
 copy(matches.map(match => match[1]));
